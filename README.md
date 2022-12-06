@@ -1,2 +1,1 @@
-# todo_list
-Crea Inc. Python Assignment
+# To-Do List (Crea Inc. Python Assignment)
