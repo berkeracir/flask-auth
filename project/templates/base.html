@@ -17,10 +17,15 @@
 				<div class="container">
 					<div id="navbarMenuHeroA" class="navbar-menu">
 						<div class="navbar-end">
+							{% if not current_user.is_authenticated %}
 							<a href="{{ url_for('main.index') }}" class="navbar-item">
 								Home
 							</a>
+							{% endif %}
 							{% if current_user.is_authenticated %}
+							<a href="{{ url_for('main.lists') }}" class="navbar-item">
+								To-Do Lists
+							</a>
 							<a href="{{ url_for('main.profile') }}" class="navbar-item">
 								Profile
 							</a>
