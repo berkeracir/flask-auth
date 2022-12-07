@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  To-Do List
+</h1>
+<h2 class="subtitle">
+  <b><a href="{{ url_for('auth.signup') }}">Sign up</a></b> and <b><a href="{{ url_for('auth.login') }}">Login</a></b>  to begin using To-Do List
+</h2>
+{% endblock %}
