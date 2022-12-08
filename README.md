@@ -1,4 +1,4 @@
-# To-Do List (Crea Inc. Python Assignment)
+# Flask Authorization
 
 https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login
 
